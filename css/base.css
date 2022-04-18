@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body{min-width:320px;line-height:1.8;font:400 1rem 'SCDream', '에스코어드림', 'S-Core Dream', 'Dotum', '돋움', 'sans-serif' !important;color:#000 !important;}
+@media all and (min-width:1024px){body{min-width:1400px;}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block;margin:0;padding:0;border:none;box-sizing:border-box}
+a,body, caption, div, dl, dt, dd, form, fieldset, h1, h2, h3, h4, h5, h6, img, iframe, input, ul, ol, li, p, span, table, td, th, tr, button{margin:0;padding:0;border:none;box-sizing:border-box}
+
+a, button, input[type=submit]{transition:.2s ease-out}
+a, a:visited, a:active, a:hover{color:inherit;border:none;text-decoration:none;margin:0;padding:0;}
+button{border:0;background:0;cursor:pointer;font:400 1rem 'SCDream', '에스코어드림', 'S-Core Dream', 'Dotum', '돋움', 'sans-serif'}
+
+em{font-style:normal}
+
+ul, ol, li{list-style:none;}
+h1{font-size:180%;}
+h2{font-size:160%;}
+h3{font-size:140%;}
+h4{font-size:120%;}
+
+table{border-collapse:collapse;border-spacing:0;font-size:100%;}
+caption{width:0;height:0;line-height:0;text-indent:-9999px;}
+td *, div *, span *, p *{vertical-align:middle;}
+
+legend{display:none;margin:0;padding:0;}
+input, select{font-family:inherit}
+select, textarea{font-size:inherit;margin:0;padding:0;border:0;}
+
+hr{visibility:hidden;overflow:hidden;position:absolute;width:0;height:0;font-size:0;line-height:0;}
+
+::selection{background:#fff4cd;text-shadow:none;}
